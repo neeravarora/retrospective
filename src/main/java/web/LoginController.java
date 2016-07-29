@@ -6,10 +6,11 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
+
+
 @Controller
-@RequestMapping("/Login.spring")
 public class LoginController {
-	@RequestMapping(method = RequestMethod.POST)
+	@RequestMapping(value="/login",method = RequestMethod.POST)
 	public ModelAndView processCredentials(@RequestParam("userName")String userName,@RequestParam("password")String password) {
 		String message = "Invalid credentials";
 		if(!userName.equals("") && !password.equals("")) {
@@ -17,6 +18,6 @@ public class LoginController {
 				message = "Welcome " + userName + "!!";
 			}
 		}
-		return new ModelAndView("results","message",message);
+		return new ModelAndView("home","message",message);
 	}
 }
