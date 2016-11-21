@@ -32,6 +32,7 @@
 			<version>1.7.5</version>
 			<scope>runtime</scope>
 		</dependency>
+		
 		<dependency>
 			<groupId>log4j</groupId>
 			<artifactId>log4j</artifactId>
@@ -54,7 +55,7 @@
 					<artifactId>jmxri</artifactId>
 				</exclusion>
 			</exclusions>
-			<scope>runtime</scope>
+			<scope>compile</scope>
 		</dependency>
   
    <dependency>

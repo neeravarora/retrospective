@@ -59,7 +59,7 @@ public class Users {
 	}
 
 
-	@OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
+	@OneToMany(mappedBy = "user")
     public Set<WhatWentWell> getWhatWentWell() {
         return whatWentWell;
     }

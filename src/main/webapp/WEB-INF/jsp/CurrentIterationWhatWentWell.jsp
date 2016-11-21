@@ -402,11 +402,16 @@
 					</ol>
 				</div>
 			</div>
-			 <form name="CurrentIterationWhatWentWell" action="" id="CurrentIterationWhatWentWell">
+			<div id="form-messages">
+				<br>
+			</div>
+			 <form name="CurrentIterationWhatWentWell" method="post" action="CurrentIterationWhatWentWell" id="CurrentIterationWhatWentWell" >
 	          <textarea rows="4" cols="50" name="comment">
 	          ${comment.comment}
 	          </textarea>
-          </form>
+	          <br>
+	          <input type="submit" value="Submit">
+             </form>
           </section>
          
       </section>
