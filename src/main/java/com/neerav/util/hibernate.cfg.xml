@@ -14,8 +14,8 @@
          <property name="format_sql">true</property>
 		<property name="use_sql_comments">true</property>
 		<property name="hbm2ddl.auto">update</property>
-          <mapping class="com.neerav.model.WhatWentWell"/>  
-           <mapping class="com.neerav.model.Users"/>  
-            <mapping class="com.neerav.model.Iteration"/>  
+          <mapping class="com.neerav.model.RComment"/>  
+           <mapping class="com.neerav.model.RIteration"/>  
+            <mapping class="com.neerav.model.RUsers"/>  
     </session-factory>
 </hibernate-configuration>

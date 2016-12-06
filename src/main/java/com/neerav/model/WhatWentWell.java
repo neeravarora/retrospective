@@ -36,12 +36,40 @@ public class WhatWentWell {
 	private String comment;
 
 	
-    public Users getUsers() {
-        return user;
-    }
+  
 	
 	
-    public Iteration getIteration() {
+    public long getWhatWentWellId() {
+		return whatWentWellId;
+	}
+
+
+	public void setWhatWentWellId(long whatWentWellId) {
+		this.whatWentWellId = whatWentWellId;
+	}
+
+
+	public Users getUser() {
+		return user;
+	}
+
+
+	public void setUser(Users user) {
+		this.user = user;
+	}
+
+
+	public void setIteration(Iteration iteration) {
+		this.iteration = iteration;
+	}
+
+
+	public void setComment(String comment) {
+		this.comment = comment;
+	}
+
+
+	public Iteration getIteration() {
         return iteration;
     }
     

@@ -405,7 +405,7 @@
 			<div id="form-messages">
 				<br>
 			</div>
-			 <form name="CurrentIterationWhatWentWell" method="post" action="CurrentIterationWhatWentWell" id="CurrentIterationWhatWentWell" >
+			 <form name="CurrentIterationWhatWentWell" method="post"  id="CurrentIterationWhatWentWell" >
 	          <textarea rows="4" cols="50" name="comment">
 	          ${comment.comment}
 	          </textarea>
@@ -439,6 +439,7 @@
 	<script src="<c:url value="/resources/assets/fullcalendar/fullcalendar/fullcalendar.js" />"></script>
     <!--script for this page only-->
     <script src="<c:url value="/resources/js/calendar-custom.js" />"></script>
+    <script src="<c:url value="/resources/js/custom.js" />"></script>
 	<script src="<c:url value="/resources/js/jquery.rateit.min.js" />"></script>
     <!-- custom select -->
     <script src="<c:url value="/resources/js/jquery.customSelect.min.js" />"></script>

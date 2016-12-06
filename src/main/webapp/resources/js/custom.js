@@ -17,7 +17,7 @@ $(function() {
 		// Submit the form using AJAX.
 		$.ajax({
 			type: 'POST',
-			url: $(form).attr('action'),
+			url: 'UpdateCurrentIterationWhatWentWell',
 			data: formData
 		})
 		.done(function(response) {
@@ -53,7 +53,7 @@ $(function() {
 function CurrentIterationWhatWentWell(){
 my_form=document.createElement('FORM');
 my_form.name='myForm';
-my_form.method='GET';
+my_form.method='POST';
 my_form.action='CurrentIterationWhatWentWell';
 
 /*my_tb=document.createElement('INPUT');
